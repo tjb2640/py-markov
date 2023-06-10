@@ -128,7 +128,7 @@ class Chain:
         if chain.resolution != loaded_data['resolution']:
             print('Error: Existing chain\'s resolution does not match wanted resolution (Wanted %d, got %d)' % (chain.resolution, loaded_data['resolution']))
             exit()
-        if chain.resolution != loaded_data['resolution']:
+        if chain.separator != loaded_data['separator']:
             print('Error: Existing chain\'s token separator does not match wanted separator (Wanted \'%s\', got \'%s\')' % (chain.token_separator, loaded_data['token_separator']))
             exit()
 
